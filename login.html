@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <link rel="stylesheet" href="./login.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+
+                <div class="button-box">
+
+                    <div id="btn1" class="btn"></div>
+                    <button class="loginbtn" onclick="login()">Login</button>
+                    <button class="loginbtn" onclick="register()">Register</button>
+                    
+                </div>
+
+                <div class="social-media">
+
+                    <img src="./images/insta logo.jpg">
+                    <img src="./images/twitter logo 2.jpg">
+                    <img src="./images/youtuve logo.jpg">
+
+                </div>
+
+                <form id="login" class="input-group">
+                    <input type="text" class="inputtag" placeholder="User Id" required>
+                    <input type="password" class="inputtag" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkboxtag"><span>Remember Password</span>
+                    <button type="submit" class="submitbtn">Login</button>
+
+                </form>
+
+                <form id="register" class="input-group">
+
+                    <input type="text" class="inputtag" placeholder="User Id" required>
+                    <input type="email" class="inputtag" placeholder="Email Id" required>
+                    <input type="password" class="inputtag" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkboxtag"><span>I agree to the terms & conditions</span>
+                    <button type="submit" class="submitbtn">Register</button>
+
+                </form>
+
+            </div>
+        </div>
+
+
+        <script src="./login.js">
+
+        </script>
+    </body>
+</html>
